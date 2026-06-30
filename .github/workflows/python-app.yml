@@ -45,4 +45,4 @@ jobs:
           context: .
           file: ./dockerfile
           push: true
-          tags: ${{ vars.DOCKER_USERNAME }}/github-actions-practical:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/github-actions-practical:latest
